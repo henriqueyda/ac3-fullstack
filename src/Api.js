@@ -19,7 +19,6 @@ function Api() {
     return (
         <div className="display-board">
             <div className="btn">
-              <input type="text" id="nome"/>
             <button type="button" onClick={(e) => getApiLocal()} className="btn btn-warning">Chamar API</button>
             <p>{variable}</p>
             </div>
